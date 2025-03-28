@@ -2,11 +2,14 @@
 
 int main() {
 
-	std::string symbole = "#";
+	std::string symbole;
 	int etage;
 	
 	std::cout << "entre le nombre de ligne que tu veux pour la pyramide: ";
 	std::cin >> etage;
+
+ std::cout << "entre le symobole ou texte avec lequel tu veux faire la pyramid: ";
+std::cin >> symbole;
 
 	if (etage == 1) {
 
